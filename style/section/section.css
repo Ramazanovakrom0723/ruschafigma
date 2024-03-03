@@ -1,0 +1,90 @@
+section {
+  width: 100%;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #242B33;
+  color: #fff;
+}
+section h2 {
+  padding-bottom: 100px;
+  color: #D4C17F;
+}
+section .sectio-boxes1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+section .sectio-boxes1 p {
+  padding-top: 270px;
+  padding-left: 15px;
+}
+section .sectio-boxes1 .section-box1 {
+  width: 49%;
+  height: 340px;
+  background-image: url(../../img/bg-i2.jpg);
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+section .sectio-boxes1 .section-box1 p {
+  padding-top: 270px;
+  padding-left: 15px;
+}
+section .sectio-boxes1 .section-box2 {
+  width: 49%;
+  height: 340px;
+  background-image: url(../../img/bg-i3.jpg);
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 448px) {
+  section {
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 15px;
+  }
+  section h2 {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  section .sectio-boxes1 {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  section .sectio-boxes1 p {
+    height: 100px;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  section {
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+  }
+  section h2 {
+    padding-top: 60px;
+    font-size: 30px;
+  }
+  section .sectio-boxes1 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1200px) {
+  section {
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+  }
+  section .sectio-boxes1 {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}/*# sourceMappingURL=section.css.map */

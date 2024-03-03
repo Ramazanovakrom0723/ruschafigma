@@ -1,0 +1,84 @@
+summary {
+  width: 100%;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  gap: 32px;
+  background-color: #242B33;
+}
+summary .summary-box {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+summary .summary-box h2 {
+  color: #D4C17F;
+}
+summary .summary-box p {
+  color: #fff;
+}
+summary .btnn {
+  padding-top: 110px;
+}
+summary .btnn .summary-btn1 {
+  padding: 12px 55px;
+  border: none;
+  color: #2b2929;
+  opacity: 0.2;
+}
+summary .btnn .summary-btn2 {
+  padding: 12px 45px;
+  border: none;
+  color: #2b2929;
+  opacity: 0.2;
+}
+summary .btnn .summary-btn3 {
+  padding: 12px 24px;
+  border: none;
+  background-color: #D4C17F;
+  color: #fff;
+}
+
+@media (max-width: 448px) {
+  summary {
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 15px;
+  }
+  summary h2 {
+    font-size: 15px;
+  }
+  summary .btnn {
+    padding-top: 40px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  summary {
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 15px;
+  }
+  summary h2 {
+    font-size: 15px;
+  }
+  summary .btnn {
+    padding-top: 40px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 721px) and (max-width: 1200px) {
+  summary {
+    flex-wrap: wrap;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 15px;
+  }
+  summary .btnn {
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=summary.css.map */

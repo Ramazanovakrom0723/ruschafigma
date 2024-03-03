@@ -1,0 +1,144 @@
+aside{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../../img/bg-i6.jpg);
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    .aside-box1{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        h2{
+            font-size: 36px;
+            color: #D4C17F;
+        }
+        p{
+            color: #fff;
+        }
+    }
+    .aside-box2{
+        width: 35%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+        text-align: center;
+        button{
+            padding: 12px 35px;
+            border: none;
+            opacity: 0.3;
+        }
+    }
+    .aside-box3{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        .aside-box3-btn1{
+            padding: 12px 83px;
+            margin-bottom: 48px;
+            border: none;
+            opacity: 0.3;
+        }
+        .aside-box3-btn2{
+            padding: 12px 54px;
+            border: none;
+            background-color: #D4C17F;
+        }
+    }
+}
+
+@media (max-width: 448px){
+    aside{
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 15px;
+        flex-wrap: wrap;
+        .aside-box1{
+            gap: 20px;
+            h2{
+                font-size: 14px;
+            }
+        }
+        .aside-box2{
+            flex-wrap: wrap;
+            gap: 15px;
+            button{
+                padding: 7px 15px;
+            }
+        }
+        .aside-box3{
+            flex-wrap: wrap;
+            padding: 7px 17px;
+            margin-bottom: 28px;
+            .aside-box3-btn1{
+                padding: 7px 15px;
+                margin-bottom: 28px;
+            }
+            .aside-box3-btn2{
+                padding: 7px 13px;
+            }
+        }
+    }
+}
+@media (min-width: 449px) and (max-width: 720px){
+    aside{
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 25px;
+        flex-wrap: wrap;
+        .aside-box1{
+            gap: 30px;
+            h2{
+                font-size: 20px;
+            }
+        }
+        .aside-box2{
+            flex-wrap: wrap;
+            gap: 25px;
+            button{
+                padding: 10px 30px;
+            }
+        }
+        .aside-box3{
+            flex-wrap: wrap;
+            padding: 10px 20px;
+            margin-bottom: 35px;
+            .aside-box3-btn1{
+                padding: 10px 25px;
+                margin-bottom: 38px;
+            }
+            .aside-box3-btn2{
+                padding: 10px 23px;
+            }
+        }
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1200px){
+    aside{
+        padding-left: 100px;
+        padding-right: 100px;
+        flex-wrap: wrap;
+        .aside-box2{
+            flex-wrap: wrap;
+            gap: 25px;
+            button{
+                padding: 12px 40px;
+            }
+        }
+        .aside-box3{
+            flex-wrap: wrap;
+            padding: 12px 30px;
+            margin-bottom: 35px;
+            .aside-box3-btn1{
+                padding: 10px 25px;
+            }
+        }
+    }
+}
